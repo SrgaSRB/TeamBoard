@@ -1,0 +1,4 @@
+dotnet ef migrations add Ime	Kreira migraciju
+dotnet ef database update	Ažurira bazu sa svim migracijama
+dotnet ef database update Ime	Ažurira bazu do određene migracije
+dotnet ef migrations remove	Briše poslednju migraciju

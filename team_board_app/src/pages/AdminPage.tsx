@@ -14,7 +14,7 @@ const AdminPage: React.FC = () => {
         <Route path="teams" element={<SettingsTeams />} />
         <Route path="projects" element={<SettingsProjects />} />
         <Route path="tasks" element={<SettingsTasks />} />
-        <Route path="users" element={<div>USERS PAGE</div>} />
+        <Route path="users" element={<SettingsUsers/>} />
       </Routes>
     </>
   );

@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\userteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\userteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T21:54:51.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T21:12:51.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Models\\Task.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Task.cs",
+              "RelativeToolTip": "Models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:44:45.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:43:22.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserTeam.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\UserTeam.cs",
+              "RelativeDocumentMoniker": "Models\\UserTeam.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\UserTeam.cs",
+              "RelativeToolTip": "Models\\UserTeam.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:42:08.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "Models\\Team.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Team.cs",
+              "RelativeToolTip": "Models\\Team.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:40:56.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:34:29.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:33:38.177Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 183,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
