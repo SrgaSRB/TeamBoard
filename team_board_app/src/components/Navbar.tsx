@@ -1,7 +1,26 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar: React.FC = () => {
+
+  const [fullName, setFullName] = React.useState<string>("");
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const user = localStorage.getItem("user");
+    if (user) {
+      const parsedUser = JSON.parse(user);
+      setFullName(parsedUser.username);
+    }
+  }
+  , []);
+
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("user");
+    navigate("/login");
+  };
+  
   return (
     <section className="navbar">
       <div className="w-layout-blockcontainer container navbar-container w-container">
@@ -22,9 +41,9 @@ const Navbar: React.FC = () => {
           </div>
           <div className="navbar-right-div">
             <div className="link-block-2 link-block w-inline-block">
-              <div>Srdjan</div>
+              <div>{fullName}</div>
             </div>
-            <div className="link-block-3 w-inline-block">
+            <div className="link-block-3 w-inline-block" onClick={handleLogout}>
               <img
                 src="https://cdn.prod.website-files.com/67f2c0cfbba583171c160c0b/67f2f67349bf291aad53945d_exit%20(2).png"
                 loading="lazy"

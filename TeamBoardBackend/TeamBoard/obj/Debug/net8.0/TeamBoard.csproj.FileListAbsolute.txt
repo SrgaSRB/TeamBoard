@@ -169,3 +169,4 @@ C:\Users\SRDJAN\OneDrive\Projects\TeamBoard\TeamBoardBackend\TeamBoard\obj\Debug
 C:\Users\SRDJAN\OneDrive\Projects\TeamBoard\TeamBoardBackend\TeamBoard\obj\Debug\net8.0\TeamBoard.pdb
 C:\Users\SRDJAN\OneDrive\Projects\TeamBoard\TeamBoardBackend\TeamBoard\obj\Debug\net8.0\TeamBoard.genruntimeconfig.cache
 C:\Users\SRDJAN\OneDrive\Projects\TeamBoard\TeamBoardBackend\TeamBoard\obj\Debug\net8.0\ref\TeamBoard.dll
+C:\Users\SRDJAN\OneDrive\Projects\TeamBoard\TeamBoardBackend\TeamBoard\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

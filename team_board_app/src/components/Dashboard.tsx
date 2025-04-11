@@ -1,6 +1,59 @@
-import React from "react";
+import React, { useEffect } from "react";
+import api from "../api";
+import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from "recharts";
+
+interface Team{
+    teamName: string;
+    teamDescription: string;
+    projects: string[];
+}
+
+interface MyProject{
+    projectName: string;
+    projectDescription: string;
+    tasks: string[];
+}
+
+interface HighPriorityTask{
+    taskName: string;
+    taskDescription: string;
+    status: string;
+}
+
+interface TaskStatus{
+    status: string;
+    count: number;
+}
+
 
 const Dashboard: React.FC = () => {
+
+    const [teams, setTeams] = React.useState<Team[]>([]);
+    const [projects, setProjects] = React.useState<MyProject[]>([]);
+    const [highPriorityTasks, setHighPriorityTasks] = React.useState<HighPriorityTask[]>([]);
+    const [taskStatus, setTaskStatus] = React.useState<TaskStatus[]>([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+          try {
+            const response = await api.get("/dashboard/"); 
+            console.log(response.data);
+            setTeams(response.data.teams);
+            setProjects(response.data.projects);
+            setHighPriorityTasks(response.data.highPriorityTasks);
+            setTaskStatus(response.data.taskStatus);
+
+            console.log(taskStatus);
+            
+
+          } catch (error) {
+            console.error("Error fetching data:", error);
+          }
+        };
+        fetchData();
+      }, []);
+       
+
 
     return(
         <section className="home-section">
@@ -9,53 +62,91 @@ const Dashboard: React.FC = () => {
                 <div className="home-column">
                     <h2 className="heading">My Teams</h2>
                     <div className="home-column-list">
-                        <div className="home-column-list-item temp1">
-                            <div className="text-block-2">Team 1</div>
-                            <div className="text-block-4">Team1 description</div>
-                            <div className="home-column-list-item-list">
-                                <div className="text-block-3 projects-list">tram1 project 1</div>
+                        {teams.map((team, index) => (
+                            <div key={index} className="home-column-list-item temp1">
+                                <div className="text-block-2">{team.teamName}</div>
+                                <div className="text-block-4">{team.teamDescription}</div>
+                                <div className="home-column-list-item-list">
+                                    {team.projects.map((project, index) => (
+                                        <div key={index} className="text-block-3 projects-list">{project}</div>
+                                    ))}
+                                </div>
                             </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
+
                 <div className="home-column">
                     <h2 className="heading">My Projects</h2>
                     <div className="home-column-list">
-                        <div className="home-column-list-item temp2">
-                            <div className="text-block-2">Team 1</div>
-                            <div className="text-block-6">Team1 description</div>
-                            <div className="home-column-list-item-list">
-                                <div className="text-block-3 tasks-list">Task</div>
+                        {projects.map((project, index) => (
+                            <div key={index} className="home-column-list-item temp2">
+                                <div className="text-block-2">{project.projectName}</div>
+                                <div className="text-block-5">{project.projectDescription}</div>
+                                <div className="home-column-list-item-list">
+                                    {project.tasks.map((task, index) => (
+                                        <div key={index} className="text-block-3 tasks-list">{task}</div>
+                                    ))}
+                                </div>
                             </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
                 <div className="home-column column-2rows">
                     <div className="home-important-tasks">
-                        <h2 className="heading">Important Projects</h2>
+                        <h2 className="heading">High Priority Tasks</h2>
                         <div className="home-column-list">
-                            <div className="home-column-list-item">
-                                <div className="text-block-2">Team 1</div>
-                                <div className="text-block-7">Team1 description</div>
-                                <div className="home-column-list-item-list">
-                                    <div className="text-block-3 ip-list">tram1 project 1</div>
+                            {highPriorityTasks.map((task, index) => (
+                                <div key={index} className="home-column-list-item">
+                                    <div className="text-block-2">{task.taskName}</div>
+                                    <div className="text-block-6">{task.taskDescription}</div>
+                                    <div className="home-column-list-item-list">
+                                        <div className="text-block-3 ip-list">{task.status}</div>
+                                    </div>
                                 </div>
-                            </div>
+                            ))}
                         </div>
                     </div>
                     <div className="home-tasks-chart">
                         <div className="chart-map">
-                            <div className="text-block-8">
-                                ToDo: <span className="text-span">3</span>
-                            </div>
-                            <div className="text-block-9">
-                                In progress: <span className="text-span">3</span>
-                            </div>
-                            <div className="text-block-10">
-                                Done: <span className="text-span">6</span>
-                            </div>
+                            <div className="text-block-7">Task Status</div>
+                            {taskStatus.map((status, index) => {
+                                let className = "text-block-8"; // Default class
+                                if (status.status === "In progress") {
+                                    className = "text-block-9";
+                                } else if (status.status === "Done") {
+                                    className = "text-block-10";
+                                }
+                                return (
+                                    <div key={index} className={className}>
+                                        {status.status}: <span className="text-span">{status.count}</span>
+                                    </div>
+                                );
+                            })}
+                            <div className="text-block-12">Total: <span className="text-span">{taskStatus.reduce((acc, status) => acc + status.count, 0)}</span></div>
                         </div>
-                        <div className="chart-div"></div>
+                        <div className="chart-div">
+                            <ResponsiveContainer width="100%" height="100%">
+                                <PieChart>
+                                    <Pie
+                                        data={taskStatus}
+                                        dataKey="count"
+                                        nameKey="status"
+                                        cx="50%"
+                                        cy="50%"
+                                        outerRadius={80}
+                                        fill="#8884d8"
+                                        label
+                                    >
+                                        {taskStatus.map((entry, index) => (
+                                            <Cell key={`cell-${index}`} fill={["#f2c94c", "#f2994a", "#27ae60", "#FF8042"][index % 4]} />
+                                        ))}
+                                    </Pie>
+                                    <Tooltip />
+                                    <Legend />
+                                </PieChart>
+                            </ResponsiveContainer>
+                        </div>
                     </div>
                 </div>
             </div>
