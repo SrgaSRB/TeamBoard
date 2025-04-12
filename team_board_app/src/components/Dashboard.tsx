@@ -82,10 +82,10 @@ const Dashboard: React.FC = () => {
                         {projects.map((project, index) => (
                             <div key={index} className="home-column-list-item temp2">
                                 <div className="text-block-2">{project.projectName}</div>
-                                <div className="text-block-5">{project.projectDescription}</div>
+                                <div className="text-block-6">{project.projectDescription}</div>
                                 <div className="home-column-list-item-list">
                                     {project.tasks.map((task, index) => (
-                                        <div key={index} className="text-block-3 tasks-list">{task}</div>
+                                        <div key={index} className="text-block-3 temp-dashboard">{task}</div>
                                     ))}
                                 </div>
                             </div>
@@ -109,10 +109,10 @@ const Dashboard: React.FC = () => {
                     </div>
                     <div className="home-tasks-chart">
                         <div className="chart-map">
-                            <div className="text-block-7">Task Status</div>
+                            <div className="text-block-7"></div>
                             {taskStatus.map((status, index) => {
                                 let className = "text-block-8"; // Default class
-                                if (status.status === "In progress") {
+                                if (status.status === "InProgress") {
                                     className = "text-block-9";
                                 } else if (status.status === "Done") {
                                     className = "text-block-10";

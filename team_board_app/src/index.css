@@ -2317,8 +2317,8 @@ textarea.w-input, textarea.w-select {
 .home-column-list-item-list {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  flex-flow: column wrap;
-  justify-content: flex-start;
+  flex-flow: row-reverse wrap;
+  justify-content: flex-end;
   align-items: flex-start;
   max-height: 100px;
   padding: 4px;
@@ -2346,10 +2346,15 @@ textarea.w-input, textarea.w-select {
 
 .text-block-3.tasks-list {
   background-color: #e5a140;
+  padding-left: 8px;
 }
 
 .text-block-3.ip-list {
   background-color: #d14d4d;
+}
+
+.text-block-3.temp-dashboard {
+  background-color: #d9983c;
 }
 
 .home-important-tasks {
@@ -2652,6 +2657,7 @@ textarea.w-input, textarea.w-select {
   width: 32%;
   padding: 0;
   display: flex;
+  overflow: hidden;
 }
 
 .inprogress-tasks-div {
@@ -2961,6 +2967,7 @@ textarea.w-input, textarea.w-select {
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
+  color: var(--inprogress);
 }
 
 .text-block-done {

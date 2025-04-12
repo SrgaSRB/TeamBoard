@@ -123,8 +123,7 @@
               "RelativeToolTip": "Controllers\\TeamsController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAWwBcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T19:11:50.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T19:11:50.691Z"
             },
             {
               "$type": "Document",
@@ -136,8 +135,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T21:54:51.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T21:54:51.667Z"
             },
             {
               "$type": "Document",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "Models\\Task.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:44:45.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:44:45.724Z"
             },
             {
               "$type": "Document",
@@ -162,8 +159,7 @@
               "RelativeToolTip": "Controllers\\DashboardController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T21:01:28.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T21:01:28.113Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "DTOs\\MyProjectsDTO\\MyProjectsDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T21:26:30.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T21:26:30.678Z"
             },
             {
               "$type": "Document",
@@ -188,8 +183,7 @@
               "RelativeToolTip": "DTOs\\MyTeamsDTO\\MyTeamsDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T19:29:44.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T19:29:44.44Z"
             },
             {
               "$type": "Document",
@@ -201,8 +195,7 @@
               "RelativeToolTip": "Models\\Project.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:43:22.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:43:22.057Z"
             },
             {
               "$type": "Document",
@@ -214,8 +207,7 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:34:29.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:34:29.209Z"
             },
             {
               "$type": "Document",
@@ -239,8 +231,7 @@
               "RelativeToolTip": "Models\\Team.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:40:56.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:40:56.705Z"
             },
             {
               "$type": "Document",
@@ -252,8 +243,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:08:35.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T12:08:35.907Z"
             },
             {
               "$type": "Document",
@@ -265,8 +255,7 @@
               "RelativeToolTip": "Controllers\\ProjectsController.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAA4wCsAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T21:32:18.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T21:32:18.225Z"
             },
             {
               "$type": "Document",
@@ -278,8 +267,7 @@
               "RelativeToolTip": "DTOs\\MyTasks\\MyTasksDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T23:31:05.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T23:31:05.151Z"
             },
             {
               "$type": "Document",
@@ -315,8 +303,7 @@
               "RelativeToolTip": "Models\\UserTeam.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:42:08.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:42:08.033Z"
             },
             {
               "$type": "Document",
@@ -328,8 +315,7 @@
               "RelativeToolTip": "DTOs\\DashboardDTO\\DashboardDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T21:23:55.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T21:23:55.682Z"
             },
             {
               "$type": "Document",

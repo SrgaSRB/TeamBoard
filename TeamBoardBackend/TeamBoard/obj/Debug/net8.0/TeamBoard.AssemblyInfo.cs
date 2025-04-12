@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeamBoard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d1136483c76f1494a2ef3d9fa4e193f2623c8c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb04c913b6e2d62ade129e59f5d8d17566ce451d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeamBoard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeamBoard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
