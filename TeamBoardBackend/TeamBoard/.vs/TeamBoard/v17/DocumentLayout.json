@@ -3,36 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\dtos\\mytasks\\mytasksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:dtos\\mytasks\\mytasksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\dtos\\myprojectsdto\\myprojectsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:dtos\\myprojectsdto\\myprojectsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\dtos\\myteamsdto\\myteamsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:dtos\\myteamsdto\\myteamsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\userteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\userteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\dtos\\dashboarddto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:dtos\\dashboarddto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\dtos\\dashboarddto\\highprioritytaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +87,6 @@
       "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\models\\userteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:models\\userteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\onedrive\\projects\\teamboard\\teamboardbackend\\teamboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -74,48 +98,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MyTeamDto.cs",
-              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\MyTeamDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DashboardDTO\\MyTeamDto.cs",
-              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\MyTeamDto.cs",
-              "RelativeToolTip": "DTOs\\DashboardDTO\\MyTeamDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "DocumentIndex": 0,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Controllers\\TasksController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAYwEAAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T20:52:22.65Z"
+              "WhenOpened": "2025-04-11T23:33:12.86Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\LoginRequest.cs",
-              "RelativeToolTip": "DTOs\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAdAAAA",
+              "DocumentIndex": 3,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "Controllers\\TeamsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAWwBcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:12:28.524Z"
+              "WhenOpened": "2025-04-11T19:11:50.691Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswBMAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T21:54:51.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Models\\Task.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Task.cs",
+              "RelativeToolTip": "Models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:44:45.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T21:01:28.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyProjectsDto.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\MyProjectsDTO\\MyProjectsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\MyProjectsDTO\\MyProjectsDto.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\MyProjectsDTO\\MyProjectsDto.cs",
+              "RelativeToolTip": "DTOs\\MyProjectsDTO\\MyProjectsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:26:30.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyTeamsDto.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\MyTeamsDTO\\MyTeamsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\MyTeamsDTO\\MyTeamsDto.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\MyTeamsDTO\\MyTeamsDto.cs",
+              "RelativeToolTip": "DTOs\\MyTeamsDTO\\MyTeamsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T19:29:44.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:43:22.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T20:34:29.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -127,43 +231,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Task.cs",
-              "RelativeDocumentMoniker": "Models\\Task.cs",
-              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Task.cs",
-              "RelativeToolTip": "Models\\Task.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:44:45.724Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Project.cs",
-              "RelativeDocumentMoniker": "Models\\Project.cs",
-              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Project.cs",
-              "RelativeToolTip": "Models\\Project.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:43:22.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Team.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Team.cs",
               "RelativeDocumentMoniker": "Models\\Team.cs",
               "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Team.cs",
               "RelativeToolTip": "Models\\Team.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:40:56.705Z"
+              "WhenOpened": "2025-04-09T20:40:56.705Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T12:08:35.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "Controllers\\ProjectsController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA4wCsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:32:18.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyTasksDto.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\MyTasks\\MyTasksDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\MyTasks\\MyTasksDto.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\MyTasks\\MyTasksDto.cs",
+              "RelativeToolTip": "DTOs\\MyTasks\\MyTasksDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T23:31:05.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "HighPriorityTaskDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\HighPriorityTaskDto.cs",
               "RelativeDocumentMoniker": "DTOs\\DashboardDTO\\HighPriorityTaskDto.cs",
@@ -175,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -183,38 +303,61 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAAowCAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:33:38.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:33:38.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Controllers\\DashboardController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAmwBoAAAAMAAAA",
+              "DocumentIndex": 13,
+              "Title": "UserTeam.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\UserTeam.cs",
+              "RelativeDocumentMoniker": "Models\\UserTeam.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\UserTeam.cs",
+              "RelativeToolTip": "Models\\UserTeam.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T21:01:28.113Z",
+              "WhenOpened": "2025-04-09T20:42:08.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAByAAAA",
+              "DocumentIndex": 14,
+              "Title": "DashboardDto.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\DashboardDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DashboardDTO\\DashboardDto.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\DashboardDto.cs",
+              "RelativeToolTip": "DTOs\\DashboardDTO\\DashboardDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:08:35.907Z",
+              "WhenOpened": "2025-04-10T21:23:55.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "DTOs\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T12:12:28.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyTeamDto.cs",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\MyTeamDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DashboardDTO\\MyTeamDto.cs",
+              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\MyTeamDto.cs",
+              "RelativeToolTip": "DTOs\\DashboardDTO\\MyTeamDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T20:52:22.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "TaskStatusDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\TaskStatusDto.cs",
               "RelativeDocumentMoniker": "DTOs\\DashboardDTO\\TaskStatusDto.cs",
@@ -226,19 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DashboardDto.cs",
-              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\DashboardDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DashboardDTO\\DashboardDto.cs",
-              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\DashboardDto.cs",
-              "RelativeToolTip": "DTOs\\DashboardDTO\\DashboardDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T21:23:55.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "MyProjectDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\DashboardDTO\\MyProjectDto.cs",
               "RelativeDocumentMoniker": "DTOs\\DashboardDTO\\MyProjectDto.cs",
@@ -247,30 +378,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T20:52:54.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserTeam.cs",
-              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\UserTeam.cs",
-              "RelativeDocumentMoniker": "Models\\UserTeam.cs",
-              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\UserTeam.cs",
-              "RelativeToolTip": "Models\\UserTeam.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:42:08.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:34:29.209Z"
             }
           ]
         },
