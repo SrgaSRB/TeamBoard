@@ -2964,10 +2964,10 @@ textarea.w-input, textarea.w-select {
 }
 
 .text-block-inprogress {
+  color: var(--inprogress);
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
-  color: var(--inprogress);
 }
 
 .text-block-done {
@@ -3100,6 +3100,7 @@ textarea.w-input, textarea.w-select {
   cursor: pointer;
   background-color: #fff;
   padding: 8px;
+  position: relative;
 }
 
 .team-user-div:hover {
@@ -3206,6 +3207,7 @@ textarea.w-input, textarea.w-select {
   background-color: #fff;
   padding: 2px 6px;
   font-size: .9rem;
+  position: relative;
 }
 
 .new-user:hover {
@@ -3702,4 +3704,32 @@ textarea.w-input, textarea.w-select {
 
 .image-2 {
   width: 32px;
+}
+
+.image-3 {
+  width: 20px;
+}
+
+.link-block-5 {
+  background-color: #3898ec;
+  border-radius: 4px;
+  margin-top: 2px;
+  margin-right: 6px;
+  padding: 6px;
+  position: absolute;
+  inset: 0% 0% auto auto;
+}
+
+.link-block-6 {
+  background-color: #c33030;
+  border-radius: 4px;
+  margin-top: 2px;
+  margin-right: 6px;
+  padding: 6px;
+  position: absolute;
+  inset: 0% 0% auto auto;
+}
+
+.image-4 {
+  width: 20px;
 }

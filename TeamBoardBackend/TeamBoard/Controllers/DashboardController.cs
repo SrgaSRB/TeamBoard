@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using TeamBoard.Data;
-using TeamBoard.DTOs.DashboardDTO;
+using TeamBoard.DTOs.User.DashboardDTO;
+using TeamBoard.DTOs.User.DashboardDTO;
 
 namespace TeamBoard.Controllers
 {

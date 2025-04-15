@@ -1,4 +1,4 @@
-﻿namespace TeamBoard.DTOs.MyTasks
+﻿namespace TeamBoard.DTOs.User.MyTasks
 {
     public class MyTasksDto
     {

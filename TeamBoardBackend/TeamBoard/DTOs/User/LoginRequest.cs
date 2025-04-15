@@ -1,4 +1,4 @@
-﻿namespace TeamBoard.DTOs
+﻿namespace TeamBoard.DTOs.User
 {
     public class LoginRequest
     {

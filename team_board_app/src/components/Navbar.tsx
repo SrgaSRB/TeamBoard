@@ -40,9 +40,9 @@ const Navbar: React.FC = () => {
             </Link>
           </div>
           <div className="navbar-right-div">
-            <div className="link-block-2 link-block w-inline-block">
+            <Link to="admin/teams" className="link-block-2 link-block w-inline-block">
               <div>{fullName}</div>
-            </div>
+            </Link>
             <div className="link-block-3 w-inline-block" onClick={handleLogout}>
               <img
                 src="https://cdn.prod.website-files.com/67f2c0cfbba583171c160c0b/67f2f67349bf291aad53945d_exit%20(2).png"

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace TeamBoard.DTOs.MyProjectsDTO
+namespace TeamBoard.DTOs.User.MyProjectsDTO
 {
     public class MyProjectsDto
     {

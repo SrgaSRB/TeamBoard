@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using TeamBoard.Data;
-using TeamBoard.DTOs.MyTasks;
+using TeamBoard.DTOs.User.MyTasks;
 
 namespace TeamBoard.Controllers
 {
@@ -18,7 +18,7 @@ namespace TeamBoard.Controllers
         }
 
         [HttpGet("my")]
-        public async Task<IActionResult> get()
+        public async Task<IActionResult> Get()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 

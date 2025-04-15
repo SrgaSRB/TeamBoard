@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2YadIKzUzTtQMoCeLttIAH1vrsX0wCag+FGAYUygbL+96QqLVyz+Ehm4emGYPCeWKCn/p1OuodhhxzfD+6mw8Q==",
+  "dgSpecHash": "XoGiYFBnFGM7AkhzAp5dvU9KLEvqmqaiLnRxNlr1jkszVHdHAXrxkFqFk7MURxs/TGuLmay5m2zA++1jxwIofw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\TeamBoard.csproj",
+  "projectFilePath": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\TeamBoard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SRDJAN\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\SRDJAN\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

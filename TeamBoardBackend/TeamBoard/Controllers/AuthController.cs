@@ -23,7 +23,7 @@ namespace TeamBoard.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] DTOs.LoginRequest request)
+        public IActionResult Login([FromBody] DTOs.User.LoginRequest request)
         {
             var user = _context.Users.FirstOrDefault(u => u.Username == request.Username && u.Password == request.Password);
 

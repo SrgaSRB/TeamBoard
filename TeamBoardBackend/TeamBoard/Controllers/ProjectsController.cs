@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using TeamBoard.Data;
-using TeamBoard.DTOs.MyProjectsDTO;
+using TeamBoard.DTOs.User.MyProjectsDTO;
 
 namespace TeamBoard.Controllers
 {
@@ -20,6 +20,8 @@ namespace TeamBoard.Controllers
             _context = context;
         }
 
+
+        //returns projects of the logged user
         [HttpGet("my")]
         public async Task<IActionResult> Get()
         {
@@ -56,6 +58,12 @@ namespace TeamBoard.Controllers
 
             return Ok(myProjects);
         }
+
+        #region AdminSettings
+
+
+
+        #endregion
 
 
     }

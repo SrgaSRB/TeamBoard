@@ -5020,11 +5020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\TeamBoard.csproj",
+      "projectUniqueName": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\TeamBoard.csproj",
       "projectName": "TeamBoard",
-      "projectPath": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\TeamBoard.csproj",
+      "projectPath": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\TeamBoard.csproj",
       "packagesPath": "C:\\Users\\SRDJAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SRDJAN\\OneDrive\\Projects\\TeamBoard\\TeamBoardBackend\\TeamBoard\\obj\\",
+      "outputPath": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Vidual studio 2019 Shared components, tools\\NuGetPackages"

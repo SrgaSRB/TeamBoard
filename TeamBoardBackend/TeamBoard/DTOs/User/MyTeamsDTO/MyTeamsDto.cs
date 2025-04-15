@@ -1,4 +1,4 @@
-﻿namespace TeamBoard.DTOs.MyTeamsDTO
+﻿namespace TeamBoard.DTOs.User.MyTeamsDTO
 {
     public class MyTeamsDto
     {
@@ -8,7 +8,7 @@
         public int TotalProjectsInTeam { get; set; }
         public int MemberCount { get; set; }
         public int UserProjectCount { get; set; }
-        public List<string> ProjectsUserWorksOn {  get; set; }
+        public List<string> ProjectsUserWorksOn { get; set; }
 
     }
 }

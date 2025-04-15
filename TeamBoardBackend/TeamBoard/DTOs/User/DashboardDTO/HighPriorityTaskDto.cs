@@ -1,4 +1,4 @@
-﻿namespace TeamBoard.DTOs.DashboardDTO
+﻿namespace TeamBoard.DTOs.User.DashboardDTO
 {
     public class HighPriorityTaskDto
     {
