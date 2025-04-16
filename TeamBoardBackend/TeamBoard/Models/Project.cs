@@ -12,7 +12,7 @@
         public Team Team { get; set; }
         public User CreatedByUser { get; set; }
         public ICollection<TaskEntity> Tasks { get; set; }
-
+        public ICollection<UserProject> UserProjects { get; set; }
 
     }
 }

@@ -267,6 +267,25 @@ namespace TeamBoard.Controllers
 
         }
 
+        [HttpGet("names-and-ids")]
+        public async Task<IActionResult> GetTeamsNamesAndIds()
+        {
+
+            var teams = _context.Teams
+                .Select(t => new TeamsNamesAndIdsDto
+                {
+                    Name = t.Name,
+                    Id = t.Id
+                });
+
+            if(teams == null)
+            {
+                return BadRequest();
+            }
+
+            return Ok(teams);
+        }
+
         #endregion
 
     }

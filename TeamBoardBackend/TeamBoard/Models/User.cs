@@ -17,6 +17,7 @@ namespace TeamBoard.Models
         public ICollection<TaskEntity> AssignedTasks { get; set; }
         public ICollection<Project> CreatedProjects { get; set; }
         public ICollection<Team> CreatedTeams { get; set; }
+        public ICollection<Project> UserProjects { get; set; }
 
     }
 }
