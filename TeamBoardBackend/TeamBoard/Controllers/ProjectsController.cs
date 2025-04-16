@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using TeamBoard.Data;
+using TeamBoard.DTOs.Admin.UsersDTO;
 using TeamBoard.DTOs.Admin.ProjectsDTO;
 using TeamBoard.DTOs.User.MyProjectsDTO;
 using TeamBoard.Models;
@@ -281,6 +282,26 @@ namespace TeamBoard.Controllers
             await _context.SaveChangesAsync();
 
             return Ok();
+
+        }
+
+        [HttpGet("list")]
+        public async Task<IActionResult> ProjectsListForCreateTask()
+        {
+            var projects = await _context.Projects
+                .Select(p => new ProjectsList
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Users = p.UserProjects.Select(up => new UsersList
+                    {
+                        Name = up.User.FullName,
+                        Id = up.User.Id,
+                        Username = up.User.Username
+                    }).ToList()
+                }).ToListAsync();
+
+            return Ok(projects);
 
         }
 

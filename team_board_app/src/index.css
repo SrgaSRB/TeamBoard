@@ -3097,7 +3097,6 @@ textarea.w-input, textarea.w-select {
 }
 
 .team-user-div {
-  cursor: pointer;
   background-color: #fff;
   padding: 8px;
   position: relative;
@@ -3203,7 +3202,6 @@ textarea.w-input, textarea.w-select {
 }
 
 .new-user {
-  cursor: pointer;
   background-color: #fff;
   padding: 2px 6px;
   font-size: .9rem;
@@ -3503,6 +3501,7 @@ textarea.w-input, textarea.w-select {
   justify-content: space-around;
   align-items: stretch;
   width: 30%;
+  min-width: 30%;
   display: flex;
 }
 
@@ -3520,6 +3519,7 @@ textarea.w-input, textarea.w-select {
   flex-flow: column;
   flex: 1;
   display: flex;
+  overflow: hidden;
 }
 
 .button-4 {
@@ -3732,4 +3732,40 @@ textarea.w-input, textarea.w-select {
 
 .image-4 {
   width: 20px;
+}
+
+.text-span-11 {
+  color: gray;
+  font-size: .75rem;
+}
+
+.user-info {
+  margin-bottom: 10px;
+}
+
+.user-info-list {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  display: flex;
+}
+
+.user-project-list {
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  flex: 1;
+  align-self: center;
+  display: flex;
+  overflow: auto;
+}
+
+.text-block-53 {
+  font-size: 1.25rem;
+}
+
+.checkbox-field {
+  margin-bottom: 10px;
+}
+
+.text-block-54 {
+  font-size: 1rem;
 }

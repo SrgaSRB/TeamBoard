@@ -45,7 +45,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidIssuer = "TeamBoardApp",
             ValidAudience = "TeamBoardClient",
             IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes("moj_skriveni_token_koji_mora_biti_dugacak_da_ne_bih_dobijao_exeption")) // zadrži sigurnim!
+                Encoding.UTF8.GetBytes("moj_skriveni_token_koji_mora_biti_dugacak_da_ne_bih_dobijao_exeption"))
         };
     });
 
