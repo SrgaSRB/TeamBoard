@@ -1,4 +1,14 @@
-body{
-    font-size: 1rem;
-    line-height: 1.4;
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 480px) {
+  .chart-wrapper {
+    max-width: 140px;
+    max-height: 210px;
+  }
+  .recharts-legend-wrapper{
+    display: none;
+  }
 }
