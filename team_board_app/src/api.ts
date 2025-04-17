@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:5219/api",
+    baseURL: "https://teamboard.onrender.com/api",
     headers: {
         "Content-Type": "application/json",
       }
