@@ -1,8 +1,4 @@
 {
-    "build": {
-      "env": {
-        "NPM_FLAGS": "--legacy-peer-deps"
-      }
-    }
+    "buildCommand": "npm run vercel-build"
   }
   
