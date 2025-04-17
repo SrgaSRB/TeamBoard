@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\desktop\\projects\\teamboard\\teamboard\\teamboardbackend\\teamboard\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|c:\\users\\srdjan\\desktop\\projects\\teamboard\\teamboard\\teamboardbackend\\teamboard\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8287FBFD-22C2-4807-8896-C189D5B2CB91}|TeamBoard.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -162,11 +166,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-17T21:52:00.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserSaveChangeDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\UsersDTO\\UserSaveChangeDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\UsersDTO\\UserSaveChangeDto.cs",
@@ -174,12 +191,11 @@
               "RelativeToolTip": "DTOs\\Admin\\UsersDTO\\UserSaveChangeDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:00:52.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T22:00:52.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
@@ -192,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UsersList.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\UsersDTO\\UsersList.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\UsersDTO\\UsersList.cs",
@@ -200,12 +216,11 @@
               "RelativeToolTip": "DTOs\\Admin\\UsersDTO\\UsersList.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:02:15.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T14:02:15.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
@@ -213,12 +228,11 @@
               "RelativeToolTip": "Controllers\\TasksController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAwBkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T23:33:12.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T23:33:12.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -226,12 +240,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:33:38.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:33:38.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CreateTaskDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\TasksDto\\CreateTaskDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\TasksDto\\CreateTaskDto.cs",
@@ -243,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Task.cs",
               "RelativeDocumentMoniker": "Models\\Task.cs",
@@ -255,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -263,12 +276,11 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAwwA8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:34:29.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:34:29.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserProject.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\UserProject.cs",
               "RelativeDocumentMoniker": "Models\\UserProject.cs",
@@ -276,12 +288,11 @@
               "RelativeToolTip": "Models\\UserProject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T22:36:29.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T22:36:29.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserTeam.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\UserTeam.cs",
               "RelativeDocumentMoniker": "Models\\UserTeam.cs",
@@ -289,12 +300,11 @@
               "RelativeToolTip": "Models\\UserTeam.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:42:08.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:42:08.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TeamsController.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\TeamsController.cs",
               "RelativeDocumentMoniker": "Controllers\\TeamsController.cs",
@@ -302,12 +312,11 @@
               "RelativeToolTip": "Controllers\\TeamsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T19:11:50.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T19:11:50.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProjectsController.cs",
@@ -315,12 +324,11 @@
               "RelativeToolTip": "Controllers\\ProjectsController.cs",
               "ViewState": "AQIAAM8AAAAAAAAAAAAmwAYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T21:32:18.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T21:32:18.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\UsersDTO\\UserDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\UsersDTO\\UserDto.cs",
@@ -328,12 +336,11 @@
               "RelativeToolTip": "DTOs\\Admin\\UsersDTO\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T20:17:34.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T20:17:34.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Project.cs",
               "RelativeDocumentMoniker": "Models\\Project.cs",
@@ -341,12 +348,11 @@
               "RelativeToolTip": "Models\\Project.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:43:22.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:43:22.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CreateTeamDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\TeamsDTO\\CreateTeamDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\TeamsDTO\\CreateTeamDto.cs",
@@ -358,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ChangeProjectDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\ProjectsDTO\\ChangeProjectDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\ProjectsDTO\\ChangeProjectDto.cs",
@@ -370,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ProjectUserDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\ProjectsDTO\\ProjectUserDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\ProjectsDTO\\ProjectUserDto.cs",
@@ -382,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -390,12 +396,11 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:08:35.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T12:08:35.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "TeamsNamesAndIdsDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\TeamsDTO\\TeamsNamesAndIdsDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\TeamsDTO\\TeamsNamesAndIdsDto.cs",
@@ -407,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ProjectsDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\ProjectsDTO\\ProjectsDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\ProjectsDTO\\ProjectsDto.cs",
@@ -419,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CreateProjectDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\ProjectsDTO\\CreateProjectDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\ProjectsDTO\\CreateProjectDto.cs",
@@ -431,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "TaskDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\TasksDto\\TaskDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\TasksDto\\TaskDto.cs",
@@ -443,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ProjectsList.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\ProjectsDTO\\ProjectsList.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\ProjectsDTO\\ProjectsList.cs",
@@ -451,12 +456,11 @@
               "RelativeToolTip": "DTOs\\Admin\\ProjectsDTO\\ProjectsList.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:00:58.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T14:00:58.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
@@ -468,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "TeamDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\TeamsDTO\\TeamDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\TeamsDTO\\TeamDto.cs",
@@ -480,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "TeamUserDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\Admin\\TeamsDTO\\TeamUserDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Admin\\TeamsDTO\\TeamUserDto.cs",
@@ -492,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "MyTasksDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\User\\MyTasks\\MyTasksDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\MyTasks\\MyTasksDto.cs",
@@ -504,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -516,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Team.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\Models\\Team.cs",
               "RelativeDocumentMoniker": "Models\\Team.cs",
@@ -528,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -540,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "MyTeamsDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\User\\MyTeamsDTO\\MyTeamsDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\MyTeamsDTO\\MyTeamsDto.cs",
@@ -552,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "MyProjectsDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\User\\MyProjectsDTO\\MyProjectsDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\MyProjectsDTO\\MyProjectsDto.cs",
@@ -564,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "HighPriorityTaskDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\User\\DashboardDTO\\HighPriorityTaskDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\DashboardDTO\\HighPriorityTaskDto.cs",
@@ -576,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "DashboardDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\User\\DashboardDTO\\DashboardDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\DashboardDTO\\DashboardDto.cs",
@@ -588,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\User\\LoginRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\LoginRequest.cs",
@@ -600,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "MyTeamDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\User\\DashboardDTO\\MyTeamDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\DashboardDTO\\MyTeamDto.cs",
@@ -612,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "TaskStatusDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\User\\DashboardDTO\\TaskStatusDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\DashboardDTO\\TaskStatusDto.cs",
@@ -624,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "MyProjectDto.cs",
               "DocumentMoniker": "C:\\Users\\SRDJAN\\Desktop\\Projects\\TeamBoard\\TeamBoard\\TeamBoardBackend\\TeamBoard\\DTOs\\User\\DashboardDTO\\MyProjectDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\DashboardDTO\\MyProjectDto.cs",

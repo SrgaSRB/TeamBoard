@@ -37,7 +37,15 @@ const SettingsTasks: React.FC = () => {
     const [newTaskDescription, setNewTaskDescription] = useState<string>("");
     const [newTaskUser, setNewTaskUser] = useState<string>("");
     const [newTaskPriority, setNewTaskPriority] = useState<string>("");
-    const [newTaskDeadline, setNewTaskDeadline] = useState<string>("");    
+    const [newTaskDeadline, setNewTaskDeadline] = useState<string>("");
+
+    const [filterName, setFilterName] = useState<string>("");
+    const [filterProject, setFilterProject] = useState<string>("");
+    const [filterTeam, setFilterTeam] = useState<string>("");
+    const [filterDeadline, setFilterDeadline] = useState<string>("");
+    const [filterPriority, setFilterPriority] = useState<string>("");
+
+    const [createTaskError, setCreateTaskError] = useState<string>("");
 
     useEffect(() => {
         const fetchTasks = async () => {
@@ -66,6 +74,27 @@ const SettingsTasks: React.FC = () => {
 
     const handleCreateTask = async (e: React.FormEvent) => {
         e.preventDefault();
+
+        if (newTaskPriority === "") {
+            setCreateTaskError("Please select a priority for the task.");
+            return;
+        }
+
+        if (newTaskDeadline === "") {
+            setCreateTaskError("Please select a deadline for the task.");
+            return;
+        }
+
+        if (newTaskUser === "") {
+            setCreateTaskError("Please select a user for the task.");
+            return;
+        }
+
+        if (selectedProjectId === "") {
+            setCreateTaskError("Please select a project for the task.");
+            return;
+        }
+
         try {
             const response = await api.post('/tasks/create-task', {
                 name: newTaskName,
@@ -83,6 +112,9 @@ const SettingsTasks: React.FC = () => {
             setNewTaskUser("");
             setNewTaskPriority("");
             setNewTaskDeadline("");
+            setCreateTaskError("");
+
+            alert("Task created successfully!");
         } catch (error) {
             console.error('Error creating task:', error);
         }
@@ -196,6 +228,7 @@ const SettingsTasks: React.FC = () => {
                                     onChange={(e) => setNewTaskDeadline(e.target.value)}
                                 />
                                 <input type="submit" data-wait="Please wait..." className="submit-button-7 w-button" value="Create" />
+                                {createTaskError && <div className="error-message" style={{ color: "red" }}>{createTaskError}</div>}
                             </form>
                         </div>
                     </div>
@@ -204,56 +237,90 @@ const SettingsTasks: React.FC = () => {
                             <form id="email-form-7" name="email-form-7" data-name="Email Form 7" method="get" className="form-3">
                                 <div className="task-filter-div">
                                     <label htmlFor="field-10">Name</label>
-                                    <input className="text-field-9 w-input" maxLength={256} name="field-10" data-name="Field 10" placeholder="Example Text" type="text" id="field-10" required />
+                                    <input className="text-field-9 w-input" maxLength={256} name="field-10" data-name="Field 10" placeholder="Example Text" type="text" id="field-10"
+                                        value={filterName}
+                                        onChange={(e) => setFilterName(e.target.value)}
+                                    />
                                 </div>
                                 <div className="task-filter-div">
                                     <label htmlFor="field-11">Project</label>
-                                    <input className="text-field-10 w-input" maxLength={256} name="field-10" data-name="Field 10" placeholder="Example Text" type="text" id="field-10" required />
+                                    <input className="text-field-10 w-input" maxLength={256} name="field-10" data-name="Field 10" placeholder="Example Text" type="text" id="field-10"
+                                        value={filterProject}
+                                        onChange={(e) => setFilterProject(e.target.value)}
+                                    />
                                 </div>
+                                {
+                                    //For the team filter, you can use a dropdown or a text input based on your requirement.
+                                    /*<div className="task-filter-div">
+                                                                        <label htmlFor="field-11">Team</label>
+                                                                        <input className="text-field-11 w-input" maxLength={256} name="field-10" data-name="Field 10" placeholder="Example Text" type="text" id="field-10"
+                                                                            value={filterTeam}
+                                                                            onChange={(e) => setFilterTeam(e.target.value)}
+                                                                            </div>
+                                                                        />*/
+                                }
                                 <div className="task-filter-div">
-                                    <label htmlFor="field-11">Team</label>
-                                    <input className="text-field-11 w-input" maxLength={256} name="field-10" data-name="Field 10" placeholder="Example Text" type="text" id="field-10" required />
-                                </div>
-                                <div className="task-filter-div">
-                                    <label htmlFor="field-11">Deadline</label>
-                                    <input className="text-field-12 w-input" maxLength={256} name="field-10" data-name="Field 10" placeholder="Example Text" type="text" id="field-10" required />
+                                    <label htmlFor="field-11">Deadline until</label>
+                                    <input className="text-field-12 w-input" maxLength={256} name="field-10" data-name="Field 10" placeholder="Example Text" type="date" id="field-10"
+                                        value={filterDeadline}
+                                        onChange={(e) => setFilterDeadline(e.target.value)}
+                                    />
                                 </div>
                                 <div className="task-filter-div">
                                     <label htmlFor="field-11">Priority</label>
-                                    <select id="field-11" name="field-11" data-name="Field 11" className="select-field w-select">
+                                    <select id="field-11" name="field-11" data-name="Field 11" className="select-field w-select"
+                                        value={filterPriority}
+                                        onChange={(e) => setFilterPriority(e.target.value)}
+                                    >
                                         <option value="">Select one...</option>
+                                        <option value="Low">Low</option>
+                                        <option value="Medium">Medium</option>
+                                        <option value="High">High</option>
                                     </select>
                                 </div>
                             </form>
                         </div>
                         <div className="tasks-list">
-                            {tasks.map((task) => (
-                                <div className="task" key={task.id}>
-                                    <div className="text-block-47">{task.name}</div>
-                                    <div>{task.description}</div>
-                                    <div>
-                                        Project: <span className="text-span-10">{task.projectName}</span>
+                            {tasks
+                                .filter((task) => {
+                                    const taskDeadline = new Date(task.deadline);
+                                    const filterDeadlineDate = filterDeadline ? new Date(filterDeadline) : null;
+
+                                    return (
+                                        task.name.toLowerCase().includes(filterName.toLowerCase()) &&
+                                        task.projectName.toLowerCase().includes(filterProject.toLowerCase()) &&
+                                        task.user.toLowerCase().includes(filterTeam.toLowerCase()) &&
+                                        (!filterDeadlineDate || taskDeadline <= filterDeadlineDate) &&
+                                        task.priority.toLowerCase().includes(filterPriority.toLowerCase())
+                                    );
+                                })
+                                .map((task) => (
+                                    <div className="task" key={task.id}>
+                                        <div className="text-block-47">{task.name}</div>
+                                        <div>{task.description}</div>
+                                        <div>
+                                            Project: <span className="text-span-10">{task.projectName}</span>
+                                        </div>
+                                        <div>
+                                            Status: <span className="text-span-10">{task.status}</span>
+                                        </div>
+                                        <div>
+                                            Priority: <span className="text-span-10">{task.priority}</span>
+                                        </div>
+                                        <div>
+                                            Deadline: <span className="text-span-10">{new Date(task.deadline).toLocaleDateString()}</span>
+                                        </div>
+                                        <div>
+                                            User: <span className="text-span-10">{task.user}</span> <span className="text-span-11">(@{task.username})</span>
+                                        </div>
+                                        <a className="button-4 w-button" onClick={() => (handleDeleteTask(task.id))}>Delete Task</a>
                                     </div>
-                                    <div>
-                                        Status: <span className="text-span-10">{task.status}</span>
-                                    </div>
-                                    <div>
-                                        Priority: <span className="text-span-10">{task.priority}</span>
-                                    </div>
-                                    <div>
-                                        Deadline: <span className="text-span-10">{new Date(task.deadline).toLocaleDateString()}</span>
-                                    </div>
-                                    <div>
-                                        User: <span className="text-span-10">{task.user}</span> <span className="text-span-11">(@{task.username})</span>
-                                    </div>
-                                    <a className="button-4 w-button" onClick={() => (handleDeleteTask(task.id))}>Delete Task</a>
-                                </div>
-                            ))}
+                                ))}
 
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         </section >
 
     );

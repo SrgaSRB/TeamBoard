@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
             </Link>
           </div>
           <div className="navbar-right-div">
-            <Link to="admin/teams" className="link-block-2 link-block w-inline-block">
+            <Link to="/admin/teams" className="link-block-2 link-block w-inline-block">
               <div>{fullName}</div>
             </Link>
             <div className="link-block-3 w-inline-block" onClick={handleLogout}>
